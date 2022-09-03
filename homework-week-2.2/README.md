@@ -1,4 +1,6 @@
 # homework-with-LIKELION-w2.2
+## Đề bài
+![image](https://user-images.githubusercontent.com/108172013/188268037-adac9ec0-7c46-467c-b257-8365eafb0a09.png)
 
 #### Tại Controller Department tạo một fuction có thể get Department và tổng số employee tương ứng dùng -> mybatis:   http://localhost:8080/department/countEmployee/1
 ```json
