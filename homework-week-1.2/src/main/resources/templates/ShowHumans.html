@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title>Human list</title>
+</head>
+<body>
+<div>
+    <h1>Danh sách học sinh sắp xếp theo độ tuổi tăng dần</h1>
+    <ul>
+        <li th:each="human : ${human}">
+            <p  th:text="${human}" />
+        </li>
+    </ul>
+</div>
+</body>
+</html>
