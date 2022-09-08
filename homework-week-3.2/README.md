@@ -6,7 +6,7 @@
 - Đường dẫn ứng dụng: likelion
 - Tạo một pattern logging: pattern có thể tự chọn
 - Cài đặt level của loggin là `trace`
-### 2. Tạo 2 dto chứa các thuộc tính sau và sử dụng các annotation thực hiện validation
+### [2. Tạo 2 dto chứa các thuộc tính sau và sử dụng các annotation thực hiện validation](#2-tạo-2-dto-chứa-các-thuộc-tính-sau-và-sử-dụng-các-annotation-thực-hiện-validation)
 - `EmployeeDto` gồm:
   + employeeId
   + name: không được rỗng, độ dài từ 10 đến 50 kí tự
@@ -19,7 +19,7 @@
   + description: không được rỗng
 - Tạo api để test valid `employeeDto`
 - Tạo api để test valid departmentDto. Lưu ý phải valid được các thuộc tính trong `List<employeeDto>`
-- ### 3. Tạo hai service tương ứng với hai dto tại (3). Mỗi service tạo một method tương ứng với dto
+- ### [3. Tạo hai service tương ứng với hai dto tại (3). Mỗi service tạo một method tương ứng với dto](#3-tạo-hai-service-tương-ứng-với-hai-dto-tại-3-mỗi-service-tạo-một-method-tương-ứng-với-dto)
 - `EmployeeDto` **getEmployeeDto**(`EmployeeDto` employeeDto): xử lí trả về dto là đối số truyền vào
 - `DepartmentDto` **getDepartmentDto**(`DepartmentDto` departmentDto): xử lí trả về dto là đối số truyền vào
 - Mỗi service tạo một `Logger` và logging đối số truyền vào khi gọi method
@@ -272,3 +272,10 @@ public class DepartmentDto {
     "employeeDtoList[1].email": "Invalid email!!"
 }
 ```
+## 3. Tạo hai service tương ứng với hai dto tại (3). Mỗi service tạo một method tương ứng với dto
+#### 3 Tại mỗi serviceMỗi service tạo một Logger và logging đối số truyền vào khi gọi method 
+- Employee Service + Department Service
+  ![!image3.1](https://github.com/duclongdev/Springboot-with-LIKELION/blob/main/homework-week-3.2/Screenshot%20from%202022-09-08%2009-07-02.png)
+#### 4. Ứng dụng AOP
+- Kết quả:
+  ![Image 4](https://github.com/duclongdev/Springboot-with-LIKELION/blob/main/homework-week-3.2/Screenshot%20from%202022-09-08%2008-57-43.png)
