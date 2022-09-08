@@ -29,19 +29,19 @@
 ## Bài làm
 ### 1. Cấu hình ứng dụng với các thuộc tính
 #### 1, 2. Port: 9081 + Đường dẫn ứng dụng: likelion
-![My image](/home/long/Pictures/Screenshots/Screenshot from 2022-09-08 00-44-21.png)
+![My image](https://github.com/duclongdev/Springboot-with-LIKELION/blob/main/homework-week-3.2/Screenshot%20from%202022-09-08%2000-44-21.png)
 #### 3. Tạo một pattern logging: pattern có thể tự chọn
 ```properties
 logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss.SSS} %5p 18737 --- [%t] %-40.40logger{39} : %m%n%wEx
 ```
 ##### Kết quả
-![img.png](img.png)
+![img.png](https://github.com/duclongdev/Springboot-with-LIKELION/blob/main/homework-week-3.2/Screenshot%20from%202022-09-08%2001-05-42.png)
 ### 3. Cài đặt level của loggin là trace 
 ```properties
 logging.level.root=TRACE
 ```
 #### Kết quả
-![img_1.png](img_1.png)
+![img_1.png](https://github.com/duclongdev/Springboot-with-LIKELION/blob/main/homework-week-3.2/Screenshot%20from%202022-09-08%2001-09-00.png)
 ## 2. Tạo 2 dto chứa các thuộc tính sau và sử dụng các annotation thực hiện validation
 #### 1. EmployeeDto
 ```java
